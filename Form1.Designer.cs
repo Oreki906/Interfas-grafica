@@ -57,7 +57,7 @@
             this.Controls.Add(this.btnIniciar);
             this.Controls.Add(this.txtRuta);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "form1 ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
