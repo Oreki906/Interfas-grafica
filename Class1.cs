@@ -111,7 +111,7 @@ namespace Alejandro
             }
             else
             {
-                MessageBox.Show("la cadena contiene varios caracteres diferentes");
+                MessageBox.Show("la cadena contiene caracteres diferenstes a numeros");
                 return false;
             }
         }
