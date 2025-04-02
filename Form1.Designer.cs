@@ -30,6 +30,7 @@
         {
             this.txtRuta = new System.Windows.Forms.TextBox();
             this.btnIniciar = new System.Windows.Forms.Button();
+            this.userControl11 = new Estrada.userControl1();
             this.SuspendLayout();
             // 
             // txtRuta
@@ -49,11 +50,19 @@
             this.btnIniciar.UseVisualStyleBackColor = true;
             this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click);
             // 
+            // userControl11
+            // 
+            this.userControl11.Location = new System.Drawing.Point(201, 241);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(123, 62);
+            this.userControl11.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(821, 450);
+            this.Controls.Add(this.userControl11);
             this.Controls.Add(this.btnIniciar);
             this.Controls.Add(this.txtRuta);
             this.Name = "Form1";
@@ -67,6 +76,7 @@
 
         private System.Windows.Forms.TextBox txtRuta;
         private System.Windows.Forms.Button btnIniciar;
+        private Estrada.userControl1 userControl11;
     }
 }
 
