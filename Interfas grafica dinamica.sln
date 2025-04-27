@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfas grafica dinamica",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoBaseDatos1", "..\..\..\..\Downloads\AccesoBaseDatos1\AccesoBaseDatos1\AccesoBaseDatos1.csproj", "{AB537FDF-C091-469A-8A01-8E1968B3CC24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaPersonal", "..\AgendaPersonal\AgendaPersonal.csproj", "{28C38D34-9690-4D2C-AE01-6967DF629D75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AB537FDF-C091-469A-8A01-8E1968B3CC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB537FDF-C091-469A-8A01-8E1968B3CC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB537FDF-C091-469A-8A01-8E1968B3CC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C38D34-9690-4D2C-AE01-6967DF629D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C38D34-9690-4D2C-AE01-6967DF629D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C38D34-9690-4D2C-AE01-6967DF629D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C38D34-9690-4D2C-AE01-6967DF629D75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
