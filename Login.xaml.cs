@@ -38,7 +38,7 @@ protected override bool OnBackButtonPressed()
         {
             if (Shell.Current != null)
             {
-                await Shell.Current.GoToAsync("registro"); // Usa la ruta registrada
+                await Shell.Current.GoToAsync("registro"); 
             }
             else
             {
