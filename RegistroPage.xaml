@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgendaPersonal.RegistroPage"
+             Title="Registro de Usuario"
+             BackgroundColor="Black">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20">
+
+            <Label Text="Crear Cuenta"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="White" />
+
+            <Entry x:Name="NombreEntry"
+                   Placeholder="Nombre completo"
+                   Keyboard="Default" />
+
+            <Entry x:Name="CorreoEntry"
+                   Placeholder="Correo electrónico"
+                   Keyboard="Email" />
+
+            <Entry x:Name="ContrasenaEntry"
+                   Placeholder="Contraseña"
+                   IsPassword="True" />
+
+            <Entry x:Name="ConfirmarContrasenaEntry"
+                   Placeholder="Confirmar contraseña"
+                   IsPassword="True" />
+
+            <Button Text="Registrarse"
+                    BackgroundColor="#4CAF50"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Clicked="OnRegistroClicked" />
+
+            <Label x:Name="MensajeError"
+                   TextColor="Red"
+                   IsVisible="False"
+                   FontSize="14"
+                   HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

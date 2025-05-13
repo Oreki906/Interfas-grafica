@@ -32,13 +32,24 @@ protected override bool OnBackButtonPressed()
         await DisplayAlert("Error", $"No se pudo abrir: {ex.Message}", "OK");
     }
 }
-    private void TapGestureRecognizerReg_Tapped(object sender, TappedEventArgs e)
-{
-    Label Reg = (sender as Label);
-    var Msg = Reg.FormattedText.Spans[0].Text;
-    //var customerName = (sender as Label).Text;
-    DisplayAlert("Registrar Usuario", $"Name : {Msg}", "ok");
-}
+    private async void TapGestureRecognizerReg_Tapped(object sender, TappedEventArgs e)
+    {
+        try
+        {
+            if (Shell.Current != null)
+            {
+                await Shell.Current.GoToAsync("registro"); // Usa la ruta registrada
+            }
+            else
+            {
+                await Navigation.PushAsync(new RegistroPage());
+            }
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Error", $"No se pudo abrir: {ex.Message}", "OK");
+        }
+    }
 
     private async void LoginButton_Clicked(object sender, EventArgs e)
     {

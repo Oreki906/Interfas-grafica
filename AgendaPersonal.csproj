@@ -61,8 +61,8 @@
 
 	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="11.2.0" />
-		<PackageReference Include="Microsoft.Maui.Controls" Version="9.0.60" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.4" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="9.0.61" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.5" />
 		<PackageReference Include="MvvmLight" Version="5.4.1.1" />
 	</ItemGroup>
 
@@ -92,6 +92,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="RecuperarContrasenaPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="RegistroPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
